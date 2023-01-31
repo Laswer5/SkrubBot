@@ -1,0 +1,27 @@
+{
+  "name": "skrubbot",
+  "version": "0.0.1",
+  "type": "module",
+  "description": "IT Sektionens alldeles egna SkrubBot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "deploy-cmd-prod": "PROD=1 node deploy-commands.js",
+    "deploy-cmd-dev": "PROD=0 node deploy-commands.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Laswer5/SkrubBot.git"
+  },
+  "author": "Lukas Lindén Thöming, Filip Palmqvist",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Laswer5/SkrubBot/issues"
+  },
+  "homepage": "https://github.com/Laswer5/SkrubBot#readme",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}

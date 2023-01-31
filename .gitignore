@@ -1,0 +1,10 @@
+.vscode/
+.DS_Store
+*/.DS_Store
+*/*/.DS_Store
+
+.env
+
+# Annoying node stuff
+*/package-lock.json
+*/node_modules/
